@@ -1,0 +1,25 @@
+{
+  "name": "node-bot",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.11.0"
+  },
+  "description": "Quick and dirty Twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "node",
+    "npm"
+  ],
+  "author": "J Spencer Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "mstranslator": "^3.0.0",
+    "profane": "^1.3.0",
+    "twit": "^2.2.9"
+  }
+}
